@@ -24,8 +24,14 @@ Aplicação Java para gerenciamento de livros com interface Swing, persistência
 
 ## 📁 Estrutura
 
-com.teixeira.biblioteca.alpha ├── controller # Controladores de interface ├── dao # Acesso a dados ├── dto # Objetos de transferência de dados ├── model # Entidades JPA ├── service # Lógica de negócio ├── util # Utilitários de importação, parsing, etc. └── view # Telas Swing
-
+com.teixeira.biblioteca.alpha
+├── controller         # Controladores de interface  
+├── dao                # Acesso a dados  
+├── dto                # Objetos de transferência de dados  
+├── model              # Entidades JPA  
+├── service            # Lógica de negócio  
+├── util               # Utilitários de importação, parsing, etc.  
+└── view               # Telas Swing 
 
 ## 🧪 Como executar
 
@@ -49,6 +55,7 @@ O Nome do Vento,Patrick Rothfuss,2007,9788578270692,Arqueiro
 
 XML
 xml
+```
 <livros>
   <livro>
     <titulo>O Hobbit</titulo>
@@ -58,9 +65,10 @@ xml
     <editora>HarperCollins</editora>
   </livro>
 </livros>
+```
 
 📚 API Externa
-Os dados dos livros são recuperados da Open Library API, a partir do ISBN informado.
+Os dados dos livros são recuperados da Open Library API, a partir do ISBN informado pelo endpoint "https://openlibrary.org/isbn/9780060883287.json".
 
 👨‍💻 Autor
 Desenvolvido por Lucas Teixeira 📍 São Paulo, Brasil
