@@ -25,6 +25,7 @@ Aplicação Java para gerenciamento de livros com interface Swing, persistência
 ## 📁 Estrutura
 
 com.teixeira.biblioteca.alpha
+
 ├── controller         # Controladores de interface  
 ├── dao                # Acesso a dados  
 ├── dto                # Objetos de transferência de dados  
@@ -68,7 +69,7 @@ xml
 ```
 
 📚 API Externa
-Os dados dos livros são recuperados da Open Library API, a partir do ISBN informado pelo endpoint "https://openlibrary.org/isbn/9780060883287.json".
+Os dados dos livros são recuperados da Open Library API, a partir do ISBN informado pelo endpoint GET/"https://openlibrary.org/isbn/9780060883287.json".
 
 👨‍💻 Autor
 Desenvolvido por Lucas Teixeira 📍 São Paulo, Brasil
